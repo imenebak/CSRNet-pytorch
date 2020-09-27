@@ -14,7 +14,7 @@ CUDA: 10.1
 
 ## Training and validation Process
 
-Follow the `CSRNet_PyTorch.ipynb` to try the validation. You can try to modify the notebook and see the output of each image.
+Follow the `CSRNet_PyTorch.ipynb`. You can try to modify the notebook and see the output of each image.
 
 ## References
 
