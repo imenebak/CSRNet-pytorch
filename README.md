@@ -6,26 +6,19 @@ This is the PyTorch version repo for [CSRNet: Dilated Convolutional Neural Netwo
 CC visdrone Dataset: [web_site](http://aiskyeye.com/)
 
 ## Prerequisites
-We strongly recommend Anaconda as the environment.
+We strongly recommend Anaconda or Google Colab as the environment.
 
 Python: 3.6
 
 CUDA: 10.1
-## Ground Truth
 
-Please follow the `make_dataset.ipynb ` to generate the ground truth. It shall take some time to generate the dynamic ground truth. Note you need to generate your own json file.
+## Training and validation Process
 
-## Training Process
-
-Try `python train.py train.json val.json 0 0` to start training process.
-
-## Validation
-
-Follow the `val.ipynb` to try the validation. You can try to modify the notebook and see the output of each image.
+Follow the `CSRNet_PyTorch.ipynb` to try the validation. You can try to modify the notebook and see the output of each image.
 
 ## References
 
-If you find the CSRNet useful, please cite our paper. Thank you!
+If you find the CSRNet useful, please cite the CSRNet our paper. Thank you!
 
 ```
 @inproceedings{li2018csrnet,
@@ -34,16 +27,5 @@ If you find the CSRNet useful, please cite our paper. Thank you!
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   pages={1091--1100},
   year={2018}
-}
-```
-Please cite the Shanghai datasets and other works if you use them.
-
-```
-@inproceedings{zhang2016single,
-  title={Single-image crowd counting via multi-column convolutional neural network},
-  author={Zhang, Yingying and Zhou, Desen and Chen, Siqin and Gao, Shenghua and Ma, Yi},
-  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-  pages={589--597},
-  year={2016}
 }
 ```
